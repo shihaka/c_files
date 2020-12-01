@@ -7,11 +7,11 @@ void	pchar(char c)
 
 int	main()
 {
-	int	a;
-	a = 0;
-	while (a < 10)
+	char	a;
+	a = 'a';
+	while (a < 'z')
 	{
-		pchar('0');
+		pchar(a);
 		a++;
 	}
 	return(0);
